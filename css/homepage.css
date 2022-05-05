@@ -1,0 +1,100 @@
+		*{
+			font-family: nunito;
+			box-sizing: border-box;
+		}
+		.banner {
+    		height:120px;
+    		background-color:white;
+    	}
+    	#logo {
+    		height: 120px;
+    		width: 150px;
+    	}
+		body{
+			position: relative;
+		}
+		
+		.menubar {
+			height: 50px;
+			margin-left: 0px;
+			background-image: linear-gradient(to left,#614385,#516395);
+		}
+		.menubar a {
+			text-decoration: none;
+			color: white;
+		}
+		.menu-item:hover{
+			background-image: linear-gradient(45deg,#ff512f ,#dd2476);
+		}
+		.text-center {
+			padding-top: 12px;
+		}
+		.carousel-inner{
+			height: 500px;
+			max-width: 100%;
+		}
+		.carousel-item {
+			position: relative;
+		}
+		.carousel-content {
+			position: Absolute;
+			text-align: right;
+			color: white;
+			max-width: 40%;
+			top: 10%;
+			right: 15%;
+		}
+		.carousel-content p {
+			height: 145px;
+			font-size: 16px;
+			font-weight: 100;
+			overflow-y: scroll;
+		}
+		img {
+		 	max-width: 100%;
+		 	height: auto;
+		 	margin-bottom: 15px;
+		}
+		footer{
+			height: 131px;
+			margin-top: 10px;
+			background-image: linear-gradient(to left,#614385,#516395);
+		}
+		.footer-info {
+			padding: 20px 0px 0px 30px;
+			color: White;
+		}
+		li {
+			font-size: 14px;
+		}
+/*--------------------------TABLET---------------------------*/
+@media only screen and (max-width: 991px) {
+		.menubar {
+			height: 100px;
+		}
+		.carousel-inner{
+			height: 400px;
+			max-width: 100%;
+		}
+		.footer-info h2{
+			font-size: 16px;
+		}
+		.footer-info p{
+			font-size: 12px;
+		}
+}
+/*--------------------------MOBILE---------------------------*/
+@media only screen and (max-width: 575px) {
+		.menubar {
+			height: 200px;
+		}
+		.carousel-inner{
+			height: 300px;
+			max-width: 100%;
+		}
+		.carousel-content {
+			max-width: 60%;
+			top: 5%;
+			right: 15%;
+		}
+}
